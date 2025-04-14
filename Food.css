@@ -32,4 +32,7 @@ body{
    justify-content: space-around;
    margin-top: 175px;
 }
+.main .mainText h1{
+   font-size: 47px;
+}
 
