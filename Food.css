@@ -27,4 +27,9 @@ body{
    top: 16%;
    text-align: center;
 }
+.main{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 175px;
+}
 
