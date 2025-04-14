@@ -39,4 +39,7 @@ body{
    font-size: 33px;
    color: rgb(60, 121, 252);
 }
+.mainText p{
+   color: silver;
+}
 
