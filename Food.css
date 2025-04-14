@@ -35,4 +35,8 @@ body{
 .main .mainText h1{
    font-size: 47px;
 }
+.mainText h2{
+   font-size: 33px;
+   color: rgb(60, 121, 252);
+}
 
