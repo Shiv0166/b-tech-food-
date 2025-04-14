@@ -42,4 +42,20 @@ body{
 .mainText p{
    color: silver;
 }
+.mainText button{
+   width: 140px;
+   height: 40px;
+   background-color: red;
+   color: white;
+   border-radius: 5px;
+   border: none;
+   font-size: 22px;
+}   
+
+.mainText button:hover{
+   border: 5px solid red;
+   background-color: transparent;
+   cursor: pointer;
+}
+
 
