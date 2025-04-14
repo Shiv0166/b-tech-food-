@@ -57,5 +57,7 @@ body{
    background-color: transparent;
    cursor: pointer;
 }
-
+.main img{
+   width: 38%;
+}
 
