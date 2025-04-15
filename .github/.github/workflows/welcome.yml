@@ -1,1 +1,30 @@
+name: Validate HTML & CSS
 
+on:
+  push:
+    branches: [ main, feature-* ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validation:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Validate HTML files
+      uses: Cyb3r-Jak3/html5validator-action@v0.2.0
+      with:
+        directory: '.'
+
+    - name: Validate CSS files
+      run: |
+        echo "Validating CSS files..."
+        sudo apt-get update
+        sudo apt-get install -y css-validator
+        for file in $(find . -name "*.css"); do
+          echo "Checking $file"
+          css-validator "$file"
+        done
