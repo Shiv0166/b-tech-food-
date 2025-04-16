@@ -66,4 +66,18 @@ body{
    margin-top: 25px;
    padding: 75px;
 }
+.head span{
+   color: rgb(53, 151, 249);
+}
+
+h2{
+   text-align: center;
+}
+
+.card{
+   display: flex;
+   justify-content: center;
+   margin-top: 44px;
+   background-image: url("menubg.jpg");
+}
 
