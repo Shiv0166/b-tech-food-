@@ -118,3 +118,23 @@ h2{
    margin: auto;
    overflow: hidden;
 }
+.cards{
+   display: flex;
+   align-items: center;
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   background-color: #fff;
+   transition: all 1s ease;}
+
+.cards p{
+   color: black;
+   text-align: center;
+   padding-left: 15px;
+}
+   
+.cards img{
+   height: 300px;
+   width:400px;
+}
+   
