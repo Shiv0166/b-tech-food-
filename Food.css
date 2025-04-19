@@ -137,6 +137,7 @@ h2{
    height: 300px;
    width:400px;
 }
+
 .cards .cardsText img{
    width: 100px;
    height: 100px;
@@ -144,4 +145,14 @@ h2{
    margin-top: 11px;
    margin-left:150px;
 }
+
+.tracking{
    
+   display: flex;
+   justify-content: space-around;
+   margin-top: 175px;
+   display: none;
+}
+.tracking img{
+   width: 50%;
+}
