@@ -189,3 +189,10 @@ h2{
    padding: 55px;
    margin-top: 84px;
 }
+
+.footer .text ul {
+   display: flex;
+   list-style-type: none;
+   margin-top: 20px;
+   margin-left: 150px;
+}
