@@ -146,6 +146,16 @@ h2{
    margin-left:150px;
 }
 
+.order{
+   display: flex;
+   justify-content: center;
+
+}
+.orderText i{
+   font-size: 187px;
+   color: red;
+}
+
 .tracking{
    
    display: flex;
