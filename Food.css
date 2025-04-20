@@ -155,7 +155,21 @@ h2{
    font-size: 187px;
    color: red;
 }
-
+.orderText i:hover{
+   color: rgb(53, 158, 249);
+}
+.orderText button{
+   width: 130px;
+   height: 36px;
+   background-color: red;
+   color: white;
+   border-radius: 2px;
+   border: none;
+   font-size: 18px;
+}
+.orderText{
+   margin-inline: 100px;
+}
 .tracking{
    
    display: flex;
