@@ -209,3 +209,22 @@ h2{
    color: white;
    background-color: orange;
    }
+   @media only screen and (max-width:900px){
+      .main{
+        display: block;
+        text-align: center;
+      }
+   
+      .cards{
+         width: 700px;
+      }
+   
+      .cards img{
+         width: 350px;
+      }
+   
+   
+   nav ul a{
+      margin-inline: 15px;
+   }
+     }
