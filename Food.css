@@ -255,6 +255,11 @@ h2{
    }
 
    .crd .foodText{
-      font-size: 12px;
+      font-size: 10px;
       padding: 10px;
    }
+
+   h2{
+      font-size: 15px;
+   }
+  
