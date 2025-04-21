@@ -228,3 +228,10 @@ h2{
       margin-inline: 15px;
    }
      }
+     @media only screen and (max-width:720px){
+      ul{
+        display: none;
+      }
+      #bar{
+        display: block;
+      }
