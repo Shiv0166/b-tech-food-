@@ -235,3 +235,9 @@ h2{
       #bar{
         display: block;
       }
+   }
+   
+   .crd img{
+      height: 120px;
+      width:100%
+   }
