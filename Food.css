@@ -267,4 +267,8 @@ h2{
       .mainText h1{
        font-size: 33px;
       }
+
+      .mainText h2{
+         font-size: 23px;
+        }
    }
