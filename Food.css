@@ -271,4 +271,7 @@ h2{
       .mainText h2{
          font-size: 23px;
         }
+        .order img{
+         height: 200px;
+      }
    }
