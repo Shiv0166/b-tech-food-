@@ -289,5 +289,18 @@ h2{
       margin-right: 50px;
    }
 
+     /* form css  */
+
+#form-container {
+   background: #ffffff;
+   margin-top: 50px;
+   margin-left: 550px;
+   padding: 20px 30px;
+   border-radius: 10px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+   width: 100%;
+   max-width: 400px;
+}
+
   }
    
