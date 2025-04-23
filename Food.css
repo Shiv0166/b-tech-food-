@@ -278,5 +278,10 @@ h2{
       .cards img{
          width: 150px;
       }
+
+      .cards .cardsText{
+         font-size: 15px;
+         padding: none;
+      }
       
    }
