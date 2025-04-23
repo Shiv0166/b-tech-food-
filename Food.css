@@ -274,4 +274,9 @@ h2{
         .order img{
          height: 200px;
       }
+
+      .cards img{
+         width: 150px;
+      }
+      
    }
