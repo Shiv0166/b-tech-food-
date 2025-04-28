@@ -66,3 +66,24 @@ let logBtn = document.getElementById("logBtn");
                 toggleFormButton.innerText = 'Show Feedback Form';
             }
         });
+        let slides  = document.querySelectorAll(".cards");
+       
+        let count = 0;
+        
+        slides.forEach(function(slide, index){
+          slide.style.left = `${index * 100}%`
+        })
+       
+        function myFun(){
+          slides.forEach(function(curVal){
+             curVal.style.transform = `translateX(-${count * 100}%)`
+          })
+        }
+       
+        setInterval(function(){
+          count++;
+          if(count == slides.length){
+             count=0;
+          }
+          myFun();
+        }, 2000)
