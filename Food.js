@@ -3,7 +3,9 @@ let logBtn = document.getElementById("logBtn");
  logBtn.addEventListener("click", function(){
     document.querySelector(".loginPage").style.display="block";
  })
- addEventListener("click", function(){
+  let loged = document.getElementById("logedBtn");
+
+ loged.addEventListener("click", function(){
 
     let email = document.getElementById("name");
     let pass = document.getElementById("pass");
