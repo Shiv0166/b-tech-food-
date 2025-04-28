@@ -17,4 +17,7 @@ let logBtn = document.getElementById("logBtn");
     }
 
  })
- 
+ trackBtn.addEventListener("click", function(){
+    document.querySelector(".tracking").style.display="flex";
+    document.getElementById("order").style.display="none";
+ })
