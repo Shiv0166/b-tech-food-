@@ -35,3 +35,22 @@ let logBtn = document.getElementById("logBtn");
         
             updateCartDisplay();
         }
+        function updateCartDisplay() {
+            const cartItemsList = document.getElementById('cart-items');
+            cartItemsList.innerHTML = ''; 
+        
+            cart.forEach((item, index) => {
+                const listItem = document.createElement('li');
+                listItem.textContent = `${item.name} - Rs${item.price.toFixed(2)} `;
+                
+
+                const removeButton = document.createElement('button');
+                removeButton.textContent = 'Remove';
+                removeButton.onclick = () => removeFromCart(index);
+                listItem.appendChild(removeButton);
+        
+                cartItemsList.appendChild(listItem);
+            });
+        
+            document.getElementById('total-price').textContent = totalPrice.toFixed(2);
+        }
