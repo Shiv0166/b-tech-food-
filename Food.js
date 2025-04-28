@@ -21,3 +21,17 @@ let logBtn = document.getElementById("logBtn");
     document.querySelector(".tracking").style.display="flex";
     document.getElementById("order").style.display="none";
  })
+ let cart = [];
+        let totalPrice = 0;
+        
+        function addToCart(button) {
+            const item = button.parentElement;
+            const name = item.getAttribute('data-name');
+            const price = parseFloat(item.getAttribute('data-price'));
+        
+            cart.push({ name, price });
+            
+            totalPrice += price;
+        
+            updateCartDisplay();
+        }
