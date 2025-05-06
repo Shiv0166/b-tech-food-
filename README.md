@@ -16,7 +16,9 @@ Responsive interface optimized for desktop and mobile devices
 **🔧 Technologies Used**
 
 HTML – For building the web page structure
+
 CSS – For designing and styling the user interface
+
 JavaScript – For interactivity, user actions, and data handling
 
 🏠 Home Page 
