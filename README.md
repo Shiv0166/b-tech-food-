@@ -1,7 +1,20 @@
-## Objective
-Food Junction is a user-friendly online food ordering platform designed to connect users with their favorite meals quickly and conveniently. Whether you're a college student craving a midnight snack or a family planning dinner, Food Junction delivers delicious food to your doorstep with just a few clicks. The platform ensures a smooth and engaging experience with a simple interface and essential features like menu browsing, cart management, and secure login..
-Whether it’s a college student craving maggi or a family ordering dinner — Food Junction brings food to your doorstep with speed and simplicity.
-Website Pages:
+🍽️ Food Junction Web Application
+📌 Introduction
+This project is a modern and responsive Food Ordering Web Application built using HTML, CSS, and JavaScript. It provides a user-friendly interface for browsing food items, adding them to the cart, and placing orders. The core objective is to simulate an online food ordering experience and enhance practical skills in web development, UI/UX design, and team collaboration.
+
+✨ Features
+Categorized food menu with images and descriptions
+Secure user login and session handling
+Add-to-cart functionality with quantity updates
+Order placement and real-time order tracking
+Feedback and rating system
+Responsive interface optimized for desktop and mobile devices
+
+🔧 Technologies Used
+HTML – For building the web page structure
+CSS – For designing and styling the user interface
+JavaScript – For interactivity, user actions, and data handling
+
 🏠 Home Page 
 
 📋 Menu Page 
