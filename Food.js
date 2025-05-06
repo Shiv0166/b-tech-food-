@@ -8,6 +8,7 @@ let logBtn = document.getElementById("logBtn");
  loged.addEventListener("click", function(){
 
     let email = document.getElementById("name");
+  
     let pass = document.getElementById("pass");
 
     if(email.value == "" || pass.value == ""){
