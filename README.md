@@ -1,4 +1,4 @@
-🍽️ ##Food Junction Web Application
+🍽️ **Food Junction Web Application**
 
 📌 Introduction
 This project is a modern and responsive Food Ordering Web Application built using HTML, CSS, and JavaScript. It provides a user-friendly interface for browsing food items, adding them to the cart, and placing orders. The core objective is to simulate an online food ordering experience and enhance practical skills in web development, UI/UX design, and team collaboration.
